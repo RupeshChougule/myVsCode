@@ -1,0 +1,10 @@
+<apex:page >
+    <h1>
+        <div style="text-align:center;">
+            Hello Rupesh .!<br/>
+        	Welcome to Salesforce Developer <br/>
+            ********* <br />
+            {!$User.firstname}  {!$User.lastname}
+        </div>
+    </h1>
+</apex:page>

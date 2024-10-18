@@ -1,0 +1,14 @@
+<template>
+    <div class="slds-m-around_medium">
+        <p>{greetings}</p>
+        <p>
+            <lightning-button label="Submit" value="Click Me" onclick={handleclick}></lightning-button>
+        </p>
+        <template for:each={result} for:item="contact">
+            <p key={contact.Id}>
+                {contact.Id}
+            </p>
+        </template>
+        
+    </div>
+</template>
